@@ -1,6 +1,9 @@
 OpenHermes-2.5-Mistral-7B ile Fitness Sohbet Uygulaması
 
 Bu proje, teknium/OpenHermes-2.5-Mistral-7B adlı 7 milyar parametreli büyük bir dil modelinin (LLM), 4-bit kuantizasyon tekniği kullanılarak kaynak kısıtlı ortamlarda (örneğin Google Colab) nasıl çalıştırılabileceğini ve chibbss/fitness-chat-prompt-completion-dataset veri seti üzerinde nasıl test edilebileceğini gösteren bir uygulamadır.
+
+
+
 <img width="468" height="333" alt="image" src="https://github.com/user-attachments/assets/7f3c3c2d-86ac-4eb2-964b-31492502f871" />
 <img width="461" height="336" alt="image" src="https://github.com/user-attachments/assets/a5551a4a-cd33-44c1-a58b-1e30152543a2" />
 
