@@ -1,3 +1,4 @@
+
 OpenHermes-2.5-Mistral-7B ile Fitness Sohbet Uygulaması
 
 Bu proje, teknium/OpenHermes-2.5-Mistral-7B adlı 7 milyar parametreli büyük bir dil modelinin (LLM), 4-bit kuantizasyon tekniği kullanılarak kaynak kısıtlı ortamlarda (örneğin Google Colab) nasıl çalıştırılabileceğini ve chibbss/fitness-chat-prompt-completion-dataset veri seti üzerinde nasıl test edilebileceğini gösteren bir uygulamadır.
@@ -61,7 +62,17 @@ Test sonuçlarını (üretilen cevaplar ve performans metrikleri, eğer hesaplan
 Not defterindeki kod, modelin metin üretme yeteneklerini farklı parametrelerle (örneğin temperature, max_new_tokens) nasıl etkilediğini anlamanıza yardımcı olacak şekilde düzenlenmiştir.
 
 Sonuçlar
-Proje sonucunda, OpenHermes-2.5-Mistral-7B modelinin 4-bit kuantizasyonu ile Google Colab gibi sınırlı kaynaklara sahip ortamlarda bile başarılı bir şekilde çalıştırılabildiği gösterilmiştir. Modelin, fitness odaklı sohbet veri seti üzerindeki testlerinde anlamlı ve bağlama uygun cevaplar üretebildiği gözlemlenmiştir. Elde edilen BLEU ve ROUGE gibi metrikler (eğer hesaplandıysa buraya ekleyin) modelin performansını nicel olarak değerlendirmeye olanak sağlamıştır.
+Proje sonucunda, OpenHermes-2.5-Mistral-7B modelinin 4-bit kuantizasyonu ile Google Colab gibi sınırlı kaynaklara sahip ortamlarda bile başarılı bir şekilde çalıştırılabildiği gösterilmiştir. Modelin, fitness
+odaklı sohbet veri seti üzerindeki testlerinde anlamlı ve bağlama uygun cevaplar üretebildiği gözlemlenmiştir. Elde edilen BLEU ve ROUGE gibi metrikler (eğer hesaplandıysa buraya ekleyin) modelin performansını nicel olarak değerlendirmeye olanak sağlamıştır.
+
+
+<img width="929" height="453" alt="image" src="https://github.com/user-attachments/assets/44708972-7104-41a8-975f-cb2598a4da5d" />
+<img width="650" height="134" alt="image" src="https://github.com/user-attachments/assets/4f6f8089-0510-49e3-a805-2c5b2b539f5f" />
+
+
+
+
+
 
 Katkıda Bulunma
 Bu proje kişisel bir çalışma olup şu anda dış katkılara açık değildir. Ancak, modelin farklı veri setleri üzerinde denenmesi, farklı optimizasyon tekniklerinin uygulanması veya performans analizlerinin derinleştirilmesi gibi fikirleriniz varsa benimle iletişime geçebilirsiniz.
